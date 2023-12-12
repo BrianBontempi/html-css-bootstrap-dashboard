@@ -3,8 +3,6 @@
 .top-header{
     height: 80px;
 
-    background-color: grey;
-
     position: sticky;
     top: 0;
     right: 0;
@@ -35,7 +33,17 @@ main{
 }
 
 .internal-header{
-    min-height: 300px;
+    min-height: 250px;
 
     background-color: #1B72E8;
+}
+
+/* ! generics */
+
+.navbar-brand > img{
+    width: 60px;
+}
+
+.fa-bell{
+    color: #FF8F00;
 }
