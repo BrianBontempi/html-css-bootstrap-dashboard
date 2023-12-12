@@ -1,6 +1,6 @@
 /* ! layout */
 
-header{
+.top-header{
     height: 80px;
 
     background-color: grey;
@@ -22,6 +22,20 @@ header{
 .sidebar{
     width: 80px;
 
+    flex-shrink: 0;
+
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
+}
+
+main{
+    overflow: auto;
+
+    flex-grow: 1;
+}
+
+.internal-header{
+    min-height: 300px;
+
+    background-color: #1B72E8;
 }
