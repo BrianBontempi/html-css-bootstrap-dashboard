@@ -1,0 +1,10 @@
+/* ! layout */
+
+header{
+    height: 80px;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
