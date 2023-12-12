@@ -38,7 +38,7 @@ main{
     background-color: #1B72E8;
 }
 
-/* ! generics */
+/* ! Header */
 
 .navbar-brand > img{
     width: 60px;
@@ -46,4 +46,14 @@ main{
 
 .fa-bell{
     color: #FF8F00;
+}
+
+#desk-logo{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    line-height: initial;
+    color: rgb(90, 89, 89);
 }
