@@ -2,9 +2,26 @@
 
 header{
     height: 80px;
+
     background-color: grey;
-    position: fixed;
+
+    position: sticky;
     top: 0;
     right: 0;
     left: 0;
+}
+
+.bottom-content{
+    display: flex;
+
+    height: calc(100vh - 80px);
+
+    overflow: auto;
+}
+
+.sidebar{
+    width: 80px;
+
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
 }
