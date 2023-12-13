@@ -82,3 +82,9 @@ a{
 .rounded-pill{
     background-color: #165BBA;
 }
+
+/* ! todo card */
+
+main{
+    font-size: 0.8rem;
+}
