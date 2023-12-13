@@ -26,7 +26,7 @@ main{
 }
 
 .internal-header{
-    min-height: 250px;
+    min-height: 100px;
 
     background-color: #1B72E8;
 }
@@ -75,4 +75,10 @@ a{
     .sidebar span{
         display: inline;
     }
+}
+
+/* ! header interno */
+
+.rounded-pill{
+    background-color: #165BBA;
 }
