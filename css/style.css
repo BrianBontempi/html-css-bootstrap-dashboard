@@ -2,19 +2,12 @@
 
 .top-header{
     height: 80px;
-
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
 }
 
 .bottom-content{
     display: flex;
 
     height: calc(100vh - 80px);
-
-    overflow: auto;
 }
 
 .sidebar{
@@ -38,6 +31,12 @@ main{
     background-color: #1B72E8;
 }
 
+/* ? generics */
+
+ul{
+    list-style-type: none;
+}
+
 /* ! Header */
 
 .navbar-brand > img{
@@ -56,4 +55,24 @@ a{
     text-decoration: none;
     line-height: initial;
     color: rgb(90, 89, 89);
+}
+
+/* ! sidebar */
+
+.sidebar a{
+    color: white;
+}
+.sidebar span{
+    font-size: 12px;
+    margin-left: 10px;
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar{
+        width: 140px;
+    }
+    .sidebar span{
+        display: inline;
+    }
 }

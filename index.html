@@ -17,32 +17,39 @@
         <nav class="navbar h-100 p-0">
             <div class="container-fluid h-100 align-items-center gap-2">
               <a class="navbar-brand d-lg-none"><img src="img/mobile-logo.png" alt="logo"></a>
-              <a class="navbar-brand d-none d-lg-inline-block"><img id="desk-logo" src="img/logo desktop.svg" alt="logo"></a>
+              <a class="navbar-brand d-none d-lg-inline-block"><img id="desk-logo" src="img/logo-desktop.svg" alt="logo"></a>
               <form class="d-flex flex-grow-1" role="search">
                 <input class="form-control me-2 bg-secondary-subtle py-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
               </form>
-              <ul class="d-flex p-0 m-0 gap-lg-3">
-                <a href="#"><i class="fas fa-list-ul d-none d-lg-flex"></i></a>
-                <a href="#"><i class="fas fa-circle-question d-none d-lg-flex"></i></a>
-                <a href="#"><i class="fas fa-ellipsis-vertical d-none d-lg-flex"></i></a>
-                <a href="#"><i class="fas fa-bell align-self-center"></i></a>
+              <ul class="d-flex p-0 m-0 gap-lg-4">
+                <li><a href="#"><i class="fas fa-list-ul d-none d-lg-flex"></i></a></li>
+                <li><a href="#"><i class="fas fa-circle-question d-none d-lg-flex"></i></a></li>
+                <li><a href="#"><i class="fas fa-ellipsis-vertical d-none d-lg-flex"></i></a></li>
+                <li><a href="#"><i class="fas fa-bell align-self-center"></i></a></li>
               </ul>
             </div>
           </nav>
     </header>
     <div class="bottom-content">
-        <div class="sidebar"></div>
+        <!-- ! sidebar -->
+        <div class="sidebar d-flex flex-column justify-content-between">
+            <ul class="mt-4 d-flex flex-column gap-2 text-light">
+                <li><a href="#"><i class="fas fa-house"></i><span>Home</span></a></li>
+                <li><a href="#"><i class="fas fa-chart-simple"></i><span>Stats</span></a></li>
+                <li><a href="#"><i class="fas fa-signal"></i><span>Signals</span></a></li>
+            </ul>
+            <ul class="mb-4">
+                <li><a href="#"><i class="fas fa-gear"></i><span>Admin</span></a></li>
+            </ul>
+        </div>
         <main>
+            <!-- ! header interno -->
             <header class="internal-header">
                 
             </header>
-            <div class="primary-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col"></div>
-                        <div class="col"></div>
-                    </div>
-                </div>
+            <!-- !main content -->
+            <div class="main-content p-3">
+                
             </div>
         </main>
     </div>
