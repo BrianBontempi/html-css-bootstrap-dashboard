@@ -26,10 +26,26 @@
                 <li><a href="#"><i class="fas fa-circle-question d-none d-lg-flex"></i></a></li>
                 <li><a href="#"><i class="fas fa-ellipsis-vertical d-none d-lg-flex"></i></a></li>
                 <li><a href="#"><i class="fas fa-bell align-self-center"></i></a></li>
+                <li class="d-lg-none"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu"><i class="fas fa-bars"></i></a></li>
               </ul>
             </div>
           </nav>
     </header>
+    <!-- ! offcanvas menu mobile -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#"><i class="fas fa-list-ul me-3"></i>Elenco classi</a></li>
+                <li class="list-group-item"><a href="#"><i class="fas fa-circle-question me-3"></i>Aiuto</a></li>
+                <li class="list-group-item"><a href="#"><i class="fas fa-user me-3"></i>Il mio account</a></li>
+                <li class="list-group-item"><a href="#"><i class="fas fa-right-from-bracket me-3"></i>Esci</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="bottom-content">
         <!-- ! sidebar -->
         <div class="sidebar d-flex flex-column justify-content-between">

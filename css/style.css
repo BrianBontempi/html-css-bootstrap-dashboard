@@ -96,3 +96,33 @@ main{
     height: 40px;
     object-fit: cover;
 }
+
+/* ! effetti hover */
+
+.top-header ul a:hover i{
+    color: #1B72E8;
+}
+
+.sidebar a{
+    display: block;
+    padding: 8px 15px;
+    border-left: 3px solid transparent;
+}
+
+.sidebar a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left-color: #FF8F00;
+}
+
+#todo li:hover,
+.offcanvas li:hover{
+    background-color: #f1f5fd;
+}
+
+.card{
+    transition: box-shadow 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
